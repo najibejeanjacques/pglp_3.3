@@ -25,8 +25,19 @@
                 private Direction direction;
                 pricate Position position;
                 
+                public RobotBase(int position)
+                {
+                        this.position = position;
+                }
+                
+                public void tourner ()
+                {
+                        this.position += 1;
+                }
+                
                 public void avance()
                 {
+                        
                         /*avance d'une case*/
                 }
         }
